@@ -1,6 +1,7 @@
 # MySettings
 *_data/
 data/
+TranslationChkpts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

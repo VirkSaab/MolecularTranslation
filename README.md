@@ -21,7 +21,9 @@
 
 
 ## My approach and Pipeline:
-Step 1: ??
-Step X: Preprocessing images with Morphology
-Step XX: Extract information from images (Should be a fully automated process)
+Step 1: Preprocess image to remove noise and thicker lines
+Step 2: Use RDKit to create images from InChI strings to train a autoencoder which can reconstruct/refine molecule structures quality.
+Step 3: Use reconstructed images to train ImageTranslator to inchi strings using transformers.
 
+Step 2 resources:
+1. trying this architecture to implement autoencoder - https://paperswithcode.com/paper/deep-convolutional-autoencoders-for
