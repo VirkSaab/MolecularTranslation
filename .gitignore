@@ -3,6 +3,8 @@
 data/
 TranslationChkpts/
 TranslationFULLChkpts/
+TONEChkpts/
+TONE2Chkpts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
